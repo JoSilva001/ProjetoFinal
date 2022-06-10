@@ -1,20 +1,35 @@
+/*Criando o topo do site*/
 
+#topo{
+    width:100%;
+    height: 120px;
+    border:1px solid green;
+    background-color: #1673be;
+    color: #ffffff
+}
 
 
 /*Exemplo de CSS Externo*/
 
 body{
-    background-color: cornsilk;
+    background-color:cornsilk;
+
 }
 /*pai*/
 ul{
-    background-color: yellow;
+   width: 100%;
+   height: 17x;
+   border:1px solid red;
 }
 /*filho*/
-ul li{
-    background-color: brown;
+ul li {
+    background-color: antiquewhite;
+    display:inline;
+    padding-left: 200px;
 }
+
 /*neto*/
 ul li a{
-    background-color: aqua;
-}
+    text-decoration: none;
+    color:black
+     }
