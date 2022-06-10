@@ -33,3 +33,8 @@ ul li a{
     text-decoration: none;
     color:black
      }
+
+     /*neto*/
+ul li a:hover{
+    background-color: coral;
+     }
