@@ -9,6 +9,12 @@
     <link rel="stylesheet" type="text/css" href="geral.css"/>
     <link rel="stylesheet" type="text/css" href="reset.css"/>
 
+
+    <script type="text/javascript" src="Biblioteca/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="plugins/coin-slider.min.js"></script>
+    <link rel="stylesheet" href="plugins/coin-slider-styles.css" type="text/css"/>
+
+    
     <!--Exemplo de CSS Interno-->
     <style>
       /*ul{
@@ -49,7 +55,28 @@
     </nav>
     </div>
     
+  
+    <main>
+      <div id='coin-slider'>
+        <a href="imagens/pikachus.png" target="_blank">
+            <img src='imagens/pikachus.png' >
+            <span>
+                Description for img01
+            </span>
+        </a>
+        ......
+        ......
+        <a href="imagens/geek caneca.webp">
+            <img src='imagens/geek caneca.webp' >
+            <span>
+                Description for imgN
+            </span>
+        </a>
+    </div>
     
+    </main>
+    
+
     
          <div id="rodape">
               CanecaNerd &copy;
@@ -58,6 +85,13 @@
           
           
             </div>
+
+            <script type="text/javascript">
+              $(document).ready(function() {
+                  $('#coin-slider').coinslider({ width: 900, navigation: true, delay: 5000 });
+              });
+          </script>
+          
 
 
 
